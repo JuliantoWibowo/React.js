@@ -1,5 +1,5 @@
 import React ,{ Component } from 'react'
-import { Alert,Button } from 'reactstrap';
+import {Button } from 'reactstrap';
 
 class BootsrapComp extends Component {
     constructor(props){
