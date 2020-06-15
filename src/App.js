@@ -6,6 +6,7 @@ import HomePage from './component/Fungsional/HomePage';
 import About from './component/Fungsional/AboutComp';
 import DetailComp from './component/Fungsional/DetailComp';
 import ListComp from './component/Class/ListComp';
+import TambahComp from './component/Class/TambahComp';
 //import logo from './logo.svg';
 //import './App.css';
 //import Home from './component/Fungsional/Home';
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/About" component={About} />
         <Route exact path="/mahasiswa" component={ListComp}/>
+        <Route exact path="/mahasiswa/tambah" component={TambahComp}/>
 
         {/*<Route exact path="/detail/:id" component={DetailComp}/>*/}
       </Switch>

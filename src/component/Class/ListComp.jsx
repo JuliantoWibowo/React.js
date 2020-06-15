@@ -29,6 +29,7 @@ class ListComp extends Component {
         return (
             <Container>
                 <h2> Data Mahasiswa</h2>
+                <NavLink href="/mahasiswa/tambah"><Button color="success">Tambah Data</Button></NavLink>
                 <hr/>
                 <Table classname="table-bordered">
                     <thead>
